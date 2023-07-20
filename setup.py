@@ -26,7 +26,7 @@ setup(
   version='1.1.4',
 	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
   packages=find_packages(exclude=[]),
-  install_requires=['regex==2020.7.14','numpy','requests','beautifulSoup4'],
+  install_requires=['regex==2020.7.14','numpy==1.19','requests','beautifulSoup4'],
   package_data={'': extra_files},
 	ext_modules=[module1],
   include_package_data=True
